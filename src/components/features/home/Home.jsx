@@ -146,7 +146,11 @@ const Home = () => {
 
       <CustomModal isOpen={isModalOpen} onClose={handleCloseModal}>
         <h2>{isEditFormEnabled ? "Edit Habit" : "Add a New Habit"}</h2>
-        <form onSubmit={submitClickHandler} autoComplete="off">
+        <form
+          className="habits-container-column"
+          onSubmit={submitClickHandler}
+          autoComplete="off"
+        >
           <label htmlFor="name">Name:</label>
           <input
             type="text"
