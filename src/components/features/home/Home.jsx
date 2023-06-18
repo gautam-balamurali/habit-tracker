@@ -125,7 +125,7 @@ const Home = () => {
                 className="habit-action-btn"
                 onClick={() => editButtonClickHandler(habit.id)}
               >
-                Update
+                Update/Details
               </button>
               <button
                 className="habit-action-btn"
