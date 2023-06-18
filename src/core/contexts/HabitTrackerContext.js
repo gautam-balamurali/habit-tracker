@@ -46,6 +46,7 @@ export const HabitTrackerProvider = ({ children }) => {
       type: "ADD_NEW_ARCHIVED_HABIT",
       payload: archivedHabit,
     });
+    toast.success("Habit added to archive");
     deleteHabit(archivedHabit.id);
   };
 
