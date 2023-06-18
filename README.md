@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# 📝 Habit Tracker 🛤️
+
+- A prototype of a habit tracker app.
+
+## Tech Stack
+
+- React
+- Netlify
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
