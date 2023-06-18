@@ -6,12 +6,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { HabitTrackerProvider } from "./core/contexts/HabitTrackerContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <HabitTrackerProvider>
+        <App />
+      </HabitTrackerProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

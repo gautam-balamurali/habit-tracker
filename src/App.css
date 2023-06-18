@@ -70,4 +70,5 @@ button,
 label,
 select {
   cursor: pointer;
+  font-family: "Shantell Sans", cursive;
 }

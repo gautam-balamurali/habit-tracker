@@ -1,0 +1,21 @@
+.archived-habits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.go-back-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-transform: capitalize;
+}
